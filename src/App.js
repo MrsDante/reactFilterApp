@@ -7,6 +7,8 @@ import Filter from './Filter';
 function App() {
 
   const [popular, setPopular] = useState([]);
+  const [filtered, setFiltered] = useState([]);
+  const [activeGenre, setActiveGenre] = useState(0);
 
   useEffect(() => {
     fetchPopular();
@@ -19,14 +21,15 @@ function App() {
     //console.log(movies.results)
 
     setPopular(movies.results);
+    setFiltered(movies.results);
   };
 
 
   return (
     <div className="App">
-      <Filter />
+      <Filter popular={popular} setFiltered={setFiltered} activeGenre={activeGenre} setActiveGenre={setActiveGenre} />
       <div className="popular-movies">
-        {popular.map(movie => {
+        {filtered.map(movie => {
           return <Movie key={movie.id} movie={movie} />
         })}
       </div>
@@ -47,3 +50,5 @@ eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMjIwYzdlZWJiYjNlMzZkYjA0NmU1YjBkMzdhZGIyYSIsInN
 
 
 //https://api.themoviedb.org/3/movie/popular?api_key=<<api_key>>&language=en-US&page=1
+
+//Genres : id: 35 - Comedy, id 27 - Horror
