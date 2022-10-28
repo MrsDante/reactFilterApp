@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactFilterApp/static/css/main.0ebd9a7c.css",
+    "main.js": "/reactFilterApp/static/js/main.ff0245d1.js",
+    "static/js/787.28cb0dcd.chunk.js": "/reactFilterApp/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/reactFilterApp/index.html",
+    "main.0ebd9a7c.css.map": "/reactFilterApp/static/css/main.0ebd9a7c.css.map",
+    "main.ff0245d1.js.map": "/reactFilterApp/static/js/main.ff0245d1.js.map",
+    "787.28cb0dcd.chunk.js.map": "/reactFilterApp/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ebd9a7c.css",
+    "static/js/main.ff0245d1.js"
+  ]
+}

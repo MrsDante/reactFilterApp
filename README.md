@@ -1,3 +1,15 @@
+# Описание
+
+Приложение делает запрос к базе данных фильмов TMDA и выводит самые популярные позиции по умолчанию. Можно сделать фильрацию по жанрам
+
+# Использованные технологии
+
+React, react hooks
+Библиотека framer-motion для создания анимации переключаения фильтра
+
+# GitHub Pages
+[Посмотреть!](https://mrsdante.github.io/reactFilterApp/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
